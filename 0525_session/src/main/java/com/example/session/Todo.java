@@ -2,13 +2,34 @@ package com.example.session;
 
 public class Todo {
 
-    // TODO: private 필드 사용하기
-    // TODO: title 필드 만들기
-    // TODO: done 필드 만들기
+    private String title;
+    private boolean done;
 
-    // TODO: 기본 생성자 만들기
+    // 기본 생성자
+    public Todo() {
+    }
 
-    // TODO: 전체 필드 생성자 만들기
+    // 전체 필드 생성자
+    public Todo(String title, boolean done) {
+        this.title = title;
+        this.done = done;
+    }
 
-    // TODO: getter / setter 만들기
+    // getter
+    public String getTitle() {
+        return title;
+    }
+
+    public boolean isDone() {
+        return done;
+    }
+
+    // setter
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setDone(boolean done) {
+        this.done = done;
+    }
 }

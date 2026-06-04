@@ -8,9 +8,21 @@ import java.util.List;
 @RestController
 public class TodoController {
 
-    // TODO: Todo 목록 저장용 List 만들기 ex) List<Todo> ..
+    // Todo 저장용 리스트
+    private List<Todo> todos = new ArrayList<>();
 
-    // TODO: GET /todos 구현하기
+    // 전체 Todo 조회
+    @GetMapping("/todos")
+    public List<Todo> getTodos() {
+        return todos;
+    }
 
-    // TODO: POST /todos 구현하기
+    // 새로운 Todo 추가
+    @PostMapping("/todos")
+    public Todo addTodo(@RequestBody Todo todo) {
+
+        todos.add(todo);
+
+        return todo;
+    }
 }
