@@ -1,4 +1,4 @@
-package main.java.com.likelion.backend.domain.category.entity;
+package com.likelion.backend.domain.category.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

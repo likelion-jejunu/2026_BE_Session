@@ -1,6 +1,6 @@
-package main.java.com.likelion.backend.domain.item.entity;
+package com.likelion.backend.domain.item.entity;
 
-import main.java.com.likelion.backend.domain.category.entity.Category;
+import com.likelion.backend.domain.category.entity.Category;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;

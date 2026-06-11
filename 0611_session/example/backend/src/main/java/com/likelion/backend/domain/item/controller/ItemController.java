@@ -1,4 +1,4 @@
-package main.java.com.likelion.backend.domain.item.controller;
+package com.likelion.backend.domain.item.controller;
 
 import com.likelion.backend.domain.item.dto.ItemRequest;
 import com.likelion.backend.domain.item.dto.ItemResponse;

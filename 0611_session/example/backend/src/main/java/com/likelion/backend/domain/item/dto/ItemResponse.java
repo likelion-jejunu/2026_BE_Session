@@ -1,4 +1,4 @@
-package main.java.com.likelion.backend.domain.item.dto;
+package com.likelion.backend.domain.item.dto;
 
 import main.java.com.likelion.backend.domain.item.entity.Item;
 import lombok.AllArgsConstructor;

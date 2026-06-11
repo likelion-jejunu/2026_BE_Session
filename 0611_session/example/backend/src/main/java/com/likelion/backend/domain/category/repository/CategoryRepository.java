@@ -1,4 +1,4 @@
-package main.java.com.likelion.backend.domain.category.repository;
+package com.likelion.backend.domain.category.repository;
 
 import com.likelion.backend.domain.category.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;

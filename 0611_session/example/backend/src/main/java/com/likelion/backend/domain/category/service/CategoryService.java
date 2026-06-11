@@ -1,9 +1,9 @@
-package main.java.com.likelion.backend.domain.category.service;
+package com.likelion.backend.domain.category.service;
 
 import com.likelion.backend.domain.category.dto.CategoryRequest;
 import com.likelion.backend.domain.category.dto.CategoryResponse;
 import com.likelion.backend.domain.category.entity.Category;
-import main.java.com.likelion.backend.domain.category.repository.CategoryRepository;
+import com.likelion.backend.domain.category.repository.CategoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

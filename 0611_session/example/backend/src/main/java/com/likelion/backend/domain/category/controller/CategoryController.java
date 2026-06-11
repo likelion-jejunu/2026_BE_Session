@@ -1,4 +1,4 @@
-package main.java.com.likelion.backend.domain.category.controller;
+package com.likelion.backend.domain.category.controller;
 
 import com.likelion.backend.domain.category.dto.CategoryRequest;
 import com.likelion.backend.domain.category.dto.CategoryResponse;

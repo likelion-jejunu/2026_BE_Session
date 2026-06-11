@@ -1,4 +1,4 @@
-package main.java.com.likelion.backend.domain.category.dto;
+package com.likelion.backend.domain.category.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
